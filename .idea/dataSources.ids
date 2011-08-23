@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><component name="dataSourceStorage">
+  <data-source source="LOCAL" name="Rails depot: development" product="" version="" jdbc-version="" driver-version="" uuid="41214417-4e77-46d1-ad3d-dfd5baff1338">
+    <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+    <jdbc-url>jdbc:sqlite:/home/macon/Work/depot/db/development.sqlite3</jdbc-url>
+    <libraries>
+      <library>
+        <url>jar://$USER_HOME$/.RubyMine32/config/jdbc-drivers/sqlitejdbc-v056.jar!/</url>
+      </library>
+    </libraries>
+  </data-source>
+  <data-source source="LOCAL" name="Rails depot: test" product="" version="" jdbc-version="" driver-version="" uuid="52ab52fa-81b9-4940-80e7-be19c4581dca">
+    <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+    <jdbc-url>jdbc:sqlite:/home/macon/Work/depot/db/test.sqlite3</jdbc-url>
+    <libraries>
+      <library>
+        <url>jar://$USER_HOME$/.RubyMine32/config/jdbc-drivers/sqlitejdbc-v056.jar!/</url>
+      </library>
+    </libraries>
+  </data-source>
+</component>

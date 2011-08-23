@@ -1,0 +1,28 @@
+<% if notice %>
+    <p id="notice"><%= notice %></p>
+<% end %>
+
+<h1>
+  Your Pragmatic Catalog
+  <%=
+  if @visits > 5
+      "(%s)" % pluralize(@visits, "Visit")
+  end
+  %>
+</h1>
+
+<% @products.each do |product| %>
+    <div class="entry">
+      <% form_tag line_items_path(:product_id => product.id), :remote => true do %>
+      <%= image_submit_tag product.image_url %>
+      <% end %>
+      <h3><%= product.title %></h3>
+      <%= sanitize product.description %>
+      <div class="price_line">
+        <span class="price">
+          <%= number_to_currency product.price %>
+          <%= button_to 'Add to cart', line_items_path(:product_id => product), :remote => true %>
+        </span>
+      </div>
+    </div>
+<% end %>

@@ -1,0 +1,11 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+line1:
+  product: ruby
+  cart: mycart
+  price: 9.99
+
+line2:
+  product: javascript
+  cart: mycart
+  price: 10.99

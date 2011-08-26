@@ -2,7 +2,7 @@
 
 line1:
   product: ruby
-  cart: mycart
+  order: one
   price: 9.99
 
 line2:

@@ -1,0 +1,7 @@
+<p>Who bought '<%= @product.title %>'</p>
+
+<ul>
+<% @product.orders.each do |order| %>
+    <li><%= "#{order.name} by #{order.pay_type}" %></li>
+<% end %>
+</ul>
